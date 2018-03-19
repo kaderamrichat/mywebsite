@@ -1,0 +1,25 @@
+#header{
+    height: 100vh;
+    border: 1px solid red;
+    padding: 30px;
+    position: relative;
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        .span-title{
+            font-size: 30px;
+            display: block;
+            font-weight: 500;
+        }
+    }
+}
+
+.logo{
+    width: 200px;
+}
+
+
+
+

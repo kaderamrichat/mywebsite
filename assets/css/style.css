@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 70px; }
+
+.title {
+  font-family: 'Montserrat', sans-serif; }
+
+#header {
+  height: 100vh;
+  border: 1px solid red;
+  padding: 30px;
+  position: relative; }
+  #header h1 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%); }
+    #header h1 .span-title {
+      font-size: 30px;
+      display: block;
+      font-weight: 500; }
+
+.logo {
+  width: 200px; }
+
+/*# sourceMappingURL=style.css.map */
